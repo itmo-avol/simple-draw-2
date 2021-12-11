@@ -1,0 +1,25 @@
+{
+	"compilerOptions": {
+		"checkJs": true,
+		"module": "esnext",
+		"target": "esnext",
+		"noEmit": true,
+		
+		"strict": true,
+		
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
+		"noImplicitReturns": true,
+		"noFallthroughCasesInSwitch": true,
+		"noUncheckedIndexedAccess": true,
+		"forceConsistentCasingInFileNames": true
+	},
+	"exclude": [
+		"node_modules",
+		"**/node_modules/*"
+	],
+	"include": [
+		"scripts/**/*.js",
+		"scripts/*.js"
+	]
+}
