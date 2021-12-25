@@ -101,6 +101,16 @@ export class Draw
 	}
 	
 	/**
+	 * Обновляет изображение на холсте
+	 */
+	update()
+	{
+		this.#saving = true;
+		this.#stage.update();
+		this.#saving = false;
+	}
+	
+	/**
 	 * Обрабатывает перемещение курсора по холсту
 	 * @param {MouseEvent} event
 	 */
